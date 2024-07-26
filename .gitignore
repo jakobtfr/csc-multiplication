@@ -1,0 +1,16 @@
+.ccls*
+perf*
+CMakeLists.txt
+cmake-build-debug
+.idea
+*core*
+massif*
+Implementierung/obj/*.o
+Implementierung/matrixMul
+Implementierung/test
+Implementierung/data/matrixA.txt
+Implementierung/data/matrixB.txt
+Implementierung/data/result.txt
+Implementierung/output*
+Implementierung/randomMatrix*
+
