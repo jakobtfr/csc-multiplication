@@ -43,13 +43,10 @@ Profiling CFLAGS: -g -fno-omit-frame-pointer\
 
 Heap-Profiling CFLAGS: -g
 
-## Anteile der Projektteilnehmer
 ### Transponieren der Matrix
 Transponierung mit RadixSort\
 Mit Sortieren der row_Ind (col_Ind der Ursprungsmatrix) kann A transponiert werden.
 Gleichzeitige Sortierung von values und col_ind.
-Sonstiges: Schreiben von Tests und Hilfsfunktionen\
-Verantwortlicher: Jakob Friedrich
 
 ### Parsing und Rahmenprogramm
 Rahmenprogramm\
@@ -63,8 +60,6 @@ Das Rahmenprogramm ermöglicht die Bestimmung verschiedener Optionen:
 Parsing\
 Gleichzeitige Erstellung von nötigen Daten für transpose und Verarbeitung der Matrizen.
 
-Verantwortlicher: Alejandro Téllez
-
 ### Multiplikation
 Es wurden drei Versionen des Multiplikationsalgorithmus implementiert. Gemeinsame Entscheidung, 
 die Multiplikation der transponierten A-Matrix und der B-Matrix
@@ -73,7 +68,7 @@ Die originale Implementierung war nicht optimal, wegen unnötigem Allokieren und
 Werten.
 In V2 alles möglichst In-Place, um dies zu vermeiden.\
 Zuletzt wurde der naive Ansatz implementiert. Damit
-konnte sicherstellt werden, dass die ersten zwei Implementierungen tatsächlich performanter sind.
-Sonstiges: Implementierung von Makefile
+konnte sicherstellt werden, dass die ersten zwei Implementierungen tatsächlich performanter sind.\
 
-Verantwortlicher: Felipe Escallon 
+Sonstiges: Implementierung von Makefile, Schreiben von Tests und Hilfsfunktionen\
+
